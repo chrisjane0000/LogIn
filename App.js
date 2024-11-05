@@ -1,9 +1,9 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import React from 'react';
-import ForgotPasswordScreen from './Components/ForgotPasswordScreen'; // Adjust the path if needed
-import LoginScreen from './Components/LoginScreen'; // Adjust the path if needed
-import SignUpScreen from './Components/SignUpScreen'; // Adjust the path if needed
+import ForgotPasswordScreen from './Components/ForgotPasswordScreen';
+import LoginScreen from './Components/LoginScreen';
+import SignUpScreen from './Components/SignUpScreen';
 
 const Stack = createStackNavigator();
 
